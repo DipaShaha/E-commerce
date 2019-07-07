@@ -1,7 +1,7 @@
 import React from "react";
-import Title from './Title';
+import Title from '../Title';
 import CartItem from './CartItem';
-import {ProductConsumer} from '../Context';
+import {ProductConsumer} from '../../Context';
 export default function CartList({value}){
   
   const{cart}=value;

@@ -7,8 +7,7 @@ import CartColumns from './CartColumns';
 import CartList from './CartList';
 import EmptyCart from './EmptyCart';
 import {ButtonContainer} from '../Button';
-
-import {ProductConsumer} from 'Context';
+import {ProductConsumer} from '../../Context';
 export default class Cart extends React.Component{
 
   render(){
